@@ -21,7 +21,7 @@ Instruçoes de Uso
 
 Será gerado um token JWT (Guarde, será necessário)
 
-3. Fazer uma Requisição do tipo POST para a rota /usuario/login passando um JSON no seguinte modelo e passando o header x-access-token com o token JWT gerado anteriormente.
+3. Fazer uma Requisição do tipo POST para a rota /cliente/cadastro passando um JSON no seguinte modelo e passando o header x-access-token com o token JWT gerado anteriormente.
 
 {
    "cnpj":"15247895211",
