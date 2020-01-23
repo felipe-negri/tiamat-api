@@ -12,8 +12,8 @@ const clientes = require('./routes/clienteRoutes');
 
 const app = express();
 
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 app.use(validaJson);
 
 app.use('/usuario', usuarios);
