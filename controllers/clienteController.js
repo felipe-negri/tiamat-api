@@ -7,7 +7,7 @@ module.exports = {
       razaoSocial: req.body.razaoSocial,
       nomeFantasia: req.body.nomeFantasia,
       endereco: { 
-        cep: parseInt(req.body.endereco.cep),
+        cep: req.body.endereco.cep,
         numero: req.body.endereco.numero,
         logradouro: req.body.endereco.logradouro,
         complemento: req.body.endereco.complemento,
