@@ -3,11 +3,11 @@ const Cliente = require('../models/cliente');
 module.exports = {
   cadastro (req, res) {
     const cliente = new Cliente({
-      cnpj: req.body.cnpj,
+      cnpj: parseInt(req.body.cnpj),
       razaoSocial: req.body.razaoSocial,
       nomeFantasia: req.body.nomeFantasia,
       endereco: { 
-        cep: req.body.endereco.cep,
+        cep: parseInt(req.body.endereco.cep),
         numero: req.body.endereco.numero,
         logradouro: req.body.endereco.logradouro,
         complemento: req.body.endereco.complemento,
