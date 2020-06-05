@@ -9,7 +9,7 @@ Instruçoes de Uso
 	"sexo": "Masculino",
 	"email": "felipe.negri43@gmail.com",
 	"senha": "123456789",
-	"telefone": 995271260
+	"telefone": 995278566
 }
 
 2. Fazer uma Requisição do tipo POST para a rota /usuario/login passando um JSON no seguinte modelo:
